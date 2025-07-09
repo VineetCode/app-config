@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: PAYMENT-SERVICE
+  config: optional:configserver:http://localhost:8888
   datasource:
     url: jdbc:mysql://localhost/vineet_db
     username: root
